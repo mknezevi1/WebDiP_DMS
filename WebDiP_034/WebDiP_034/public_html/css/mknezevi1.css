@@ -1,0 +1,93 @@
+/* 
+    Document   : mknezevi1_2
+    Created on : 20.03.2013., 12:38:33
+    Author     : vjezbe2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13pt;
+    color: #3c4b9c;
+    background: #3c4b9c; 
+    margin: auto 5% auto 5%;
+}
+
+#glavni_izbornik {
+    border: 1pt solid black;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    background: #b1a29b; 
+    border-radius: 5px;
+}
+
+#dinamicko {
+    border: 1pt solid black;
+    width: 100%;
+    float: left;
+    background: #b1a29b;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: justify;
+}
+
+nav ul {
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+nav ul li {
+    float: left;
+    margin:5px;
+}
+
+#pocetna_izbornik {
+    width: 64%;
+    float: left; 
+    font-weight: normal; 
+}
+
+#prijavi {
+    border: 1pt solid black;
+    width: 400px;
+    float: right;  
+    font-weight: bold;
+    background: #3c4b9c; 
+    border-radius: 5px;
+    color:  #b1a29b;
+}
+
+#zagljavlje {
+    background: #3c4b9c;
+    border-radius: 5px;
+}
+
+#glavni_sadrzaj {
+    padding: 10px;
+}
+
+#podnozje {
+    padding: 10px;
+}
+
+#dijagram {
+    text-align: center;
+}
+
+.pogreska {
+    color:red;
+}
+
+.fokus {
+    background:aquamarine;
+}
+
+.hover {
+    color:red;
+}
